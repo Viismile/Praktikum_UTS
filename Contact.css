@@ -1,0 +1,100 @@
+@import url('https://fonts.google.com/specimen/Abel#standard-styles');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size:100%;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.cntc {
+    margin-left: 150px;
+    margin-right: 500px;
+    padding: 30px;
+}
+
+.cntc h1{
+    color: rgb(255, 203, 34);
+    font-weight: 400;
+}
+
+.cntc p{
+    word-spacing: 1px;
+}
+
+/* KONTAK */
+#kontak{
+    margin-bottom: 10px;
+}
+.nama{
+    width: 300px;
+    padding: 5px;
+    border: 2px solid #5a5a5a;
+    box-sizing: border-box;
+    font-size: 15px;
+    float: left;
+    margin-left: 375px;
+}
+
+.email{
+    width: 300px;
+    padding: 5px;
+    border: 2px solid #5a5a5a;
+    box-sizing: border-box;
+    font-size: 15px;
+    float: left;
+    margin-left: 10px;
+}
+
+.subject{
+    width: 610px;
+    padding: 5px;
+    border: 2px solid #5a5a5a;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-left: 375px;
+    margin-top: 10px;
+}
+.area, .input{
+    width: 610px;
+    padding: 5px;
+    border: 2px solid #5a5a5a;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-left: 375px;
+    margin-top: 10px;
+}
+
+input[type=submit]{
+    margin-top: 10px;
+    margin-left: 580px;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    border: solid 3px rgb(255, 203, 34);
+    border-radius: 40px;
+    padding: 12px 70px;
+}
+
+#kontak input[type=submit].active,
+#kontak input[type=submit]:hover{
+    opacity: 0.8;
+}
+
+footer {
+    clear: both;
+    margin-top: 32px;
+    background-color: rgb(19, 18, 18);
+    padding: 19px;
+}
+footer p{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(19, 18, 18);
+    color: #f9f9f9;
+    text-align: center;
+}
+footer a{
+    color: rgb(255, 203, 34);
+    text-decoration: none;
+}
